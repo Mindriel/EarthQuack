@@ -76,3 +76,4 @@ Yet not testing file saving.
 Right now it is basically a stub.
  - [updateDb](./src/transferFunctions.ts) does not update at the moment.
  - Error handling is not existent.
+ - a CI/CD would be very nice!
