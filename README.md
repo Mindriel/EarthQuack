@@ -52,6 +52,9 @@ This should not be present in a production environment.
 
 As this whole service resembles a cache - an option to consider would be **Redis** (or sth similar) not even a permanent DB.
 
+The data is being saved as returned from the master service, which is a lot of data.  
+This is also considered to be WIP and very suboptimal, but only responses were to be optimal ;-)
+
 
 ### Daily function
 As a daily function **transferEarthquakeData** should suffice.  
